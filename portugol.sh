@@ -31,7 +31,7 @@ cd /usr/Portugol/lua/include
 
 sudo ln -s /usr/include/lua5.2/lauxlib.h
 sudo ln -s /usr/include/lua5.2/luaconf.h
-sudo  ln -s /usr/include/lua5.2/lua.h
+sudo ln -s /usr/include/lua5.2/lua.h
 sudo ln -s /usr/include/lua5.2/lua.hpp
 sudo ln -s /usr/include/lua5.2/lualib.h
 
@@ -49,7 +49,7 @@ tar zxpf lua-1.1.0.tgz
 sudo rm lua-1.1.0.tgz
 cd lua-1.1.0
 
-sudo apt-get install php5-dev
+sudo apt-get -y install php5-dev
 phpize
 ./configure --with-lua=/usr/Portugol/lua
 sudo make
@@ -72,7 +72,7 @@ sudo mv /var/www/html/Mportugol-master/mportugol /var/www/html
 sudo rm -r /var/www/html/Mportugol-master 
 sudo chmod 777 /var/www/html/mportugol/teste.por
 sudo chmod 777 /var/www/html/mportugol/teste/teste.por
-sudo chmod 777 /tmp/minhasaida.txt
+
 
 
 sudo cp /var/www/html/mportugol/portugol-master/*.lua /usr/local/share/lua/5.2 
