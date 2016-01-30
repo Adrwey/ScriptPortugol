@@ -8,6 +8,7 @@ sudo apt-get install liblua5.2
 #Criação do diretório padrão do portugol e instalação luarocks
 
 sudo mkdir /usr/Portugol
+
 cd /usr/Portugol
 
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
@@ -15,10 +16,10 @@ tar zxpf luarocks-2.2.2.tar.gz
 cd luarocks-2.2.2
 ./configure; sudo make bootstrap
 sudo luarocks install luasocket
+cd /usr/Portugol
 sudo rm luarocks-2.2.2.tar.gz
 
 sudo luarocks install lpeglabel
-cd /usr/Portugol
 
 #Organização
 
@@ -26,14 +27,12 @@ mkdir lua; cd lua; mkdir include lib
 
 cd include
 
-sudo ln -s /usr/include/lua5.2/lauxlib.h; sudo ln -s
-/usr/include/lua5.2/luaconf.h; sudo  ln -s /usr/include/lua5.2/lua.h;
-sudo ln -s /usr/include/lua5.2/lua.hpp; sudo ln -s/usr/include/lua5.2/lualib.h
+sudo ln -s /usr/include/lua5.2/lauxlib.h; sudo ln -s /usr/include/lua5.2/luaconf.h
+ sudo  ln -s /usr/include/lua5.2/lua.h; sudo ln -s /usr/include/lua5.2/lua.hpp; sudo ln -s/usr/include/lua5.2/lualib.h
 
-cd ../lib
+cd /usr/Portugol/lua/lib
 
-sudo ln -s /usr/lib/x86_64-linux-gnu/liblua5.2.a liblua.a; sudo ln -s
-/usr/lib/x86_64-linux-gnu/liblua5.2.so liblua.so
+sudo ln -s /usr/lib/x86_64-linux-gnu/liblua5.2.a liblua.a; sudo ln -s /usr/lib/x86_64-linux-gnu/liblua5.2.so liblua.so
 
 
 #PHP-LUA
