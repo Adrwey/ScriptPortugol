@@ -17,11 +17,12 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
 tar zxpf luarocks-2.2.2.tar.gz
 cd luarocks-2.2.2
 ./configure; sudo make bootstrap
-sudo luarocks install luasocket
 cd /usr/Portugol
 rm luarocks-2.2.2.tar.gz
 
 sudo luarocks install lpeglabel
+lua -l 'lpeglabel' -e "print 'Sucesso' "
+
 
 #Organização
 
