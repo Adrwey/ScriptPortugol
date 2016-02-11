@@ -4,7 +4,8 @@ Script de instalação do portugol para navegador
 Requisitos:
 - PHP 5.1.0 ou mais recentes
 - Apache
-  -(Com o comando 'sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt' instalamos ambos.
+
+(Com o comando 'sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt' instalamos ambos.)
 
 
 Verificações pós-instalação:
