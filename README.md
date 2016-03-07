@@ -13,6 +13,6 @@ Verificações pós-instalação:
 - Certifique-se que existe o arquivo lua.so em um diretório como /usr/lib/php5/20131226
 
 - Coloque o seguinte caminho na barra de endereço do seu navegador
- 'localhost/mportugol/teste/testeLua.php',  o número '2' deve ser impresso na tela.
+ 'localhost/mportugol/teste/testeLua.php', a mensagem 'O LUA-PHP está funcionando." deve ser impressa na tela.
 
 - Com o caminho 'localhost/mportugol/teste' você terá um ambiente para inserir códigos portugol e receber uma resposta impressa na tela do seu navegador.
