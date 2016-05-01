@@ -73,7 +73,7 @@ cd $caminho
 sudo wget https://codeload.github.com/Adrwey/Mportugol/zip/master
 sudo unzip master
 sudo rm master
-sudo mv $caminho/Mportugol-master/mportugol /var/www/html
+sudo mv $caminho/Mportugol-master/mportugol $caminho
 sudo rm -r $caminho/Mportugol-master 
 sudo chmod 777 $caminho/mportugol/teste.por
 sudo chmod 777 $caminho/mportugol/teste/teste.por
